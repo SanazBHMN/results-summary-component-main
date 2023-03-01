@@ -9,6 +9,11 @@ module.exports = {
       "green-teal": "hsl(166, 100%, 37%)",
       "cobalt-blue": "hsl(234, 85%, 45%)",
 
+      "red-transparent": "hsl(0, 100%, 67%, 0.06)",
+      "orange-transparent": "hsl(39, 100%, 56%, 0.06)",
+      "green-transparent": "hsl(166, 100%, 37%, 0.06)",
+      "blue-transparent": "hsl(234, 85%, 45%, 0.06)",
+
       "light-slate-blue": "hsl(252, 100%, 67%)",
       "light-royal-blue": "hsl(241, 81%, 54%)",
 
