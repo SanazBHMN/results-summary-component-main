@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Inter"],
+      },
       boxShadow: {
         "3xl": "10px 10px 50px -25px hsl(241, 81%, 54%)",
       },
