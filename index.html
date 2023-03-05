@@ -19,25 +19,29 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body class="sm:h-screen sm:flex sm:justify-center sm:items-center">
-    <div class="sm:w-[700px] sm:flex sm:mx-auto sm:shadow-3xl">
+    <div class="sm:w-[700px] sm:flex sm:mx-auto">
       <section
         class="p-8 bg-gradient-to-t from-light-royal-blue to-light-slate-blue text-light-lavender rounded-b-3xl sm:flex-1 sm:rounded-3xl"
       >
         <div>
-          <h4 class="text-center mb-5">Your Result</h4>
+          <h4 class="font-semibold text-center mb-5">Your Result</h4>
           <div
-            class="font-semibold flex flex-col justify-evenly items w-32 h-32 mx-auto text-center bg-gradient-to-b from-violet-blue to-persian-blue rounded-full sm:w-40 sm:h-40"
+            class="font-semibold flex flex-col justify-evenly items w-36 h-36 mx-auto text-center bg-gradient-to-b from-violet-blue to-persian-blue rounded-full sm:w-40 sm:h-40 sm:my-8"
           >
-            <p class="text-5xl text-white">76</p>
+            <p class="text-5xl text-white mt-3">76</p>
             <span class="text-sm">of 100</span>
           </div>
-          <h4 class="text-2xl text-white text-center mt-5 mb-4">Great</h4>
+          <h4 class="font-semibold text-2xl text-white text-center mt-5 mb-4">
+            Great
+          </h4>
           <p class="text-center px-6">
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
       </section>
-      <section class="p-8 sm:flex-1 sm:rounded-br-3xl sm:pl-11 sm:-ml-4">
+      <section
+        class="p-8 sm:flex-1 sm:rounded-br-3xl sm:rounded-tr-3xl sm:pl-11 sm:-ml-4 sm:shadow-3xl"
+      >
         <h4 class="text-dark-gray-blue font-semibold mb-5">Summary</h4>
         <div
           class="flex justify-between items-center bg-red-transparent rounded-lg mb-4 p-4"
@@ -48,11 +52,11 @@
               alt="icon"
               class="inline mr-2"
             />
-            <span class="text-light-red">Reaction</span>
+            <span class="font-semibold text-light-red">Reaction</span>
           </div>
-          <div>
+          <div class="font-semibold">
             <span>80</span>
-            <span class="text-dark-gray-blue">/ 100</span>
+            <span class="text-gray-transparent">/ 100</span>
           </div>
         </div>
         <div
@@ -64,11 +68,11 @@
               alt="icon"
               class="inline mr-2"
             />
-            <span class="text-orangey-yellow">Memory</span>
+            <span class="font-semibold text-orangey-yellow">Memory</span>
           </div>
-          <div>
+          <div class="font-semibold">
             <span>92</span>
-            <span class="text-dark-gray-blue">/ 100</span>
+            <span class="text-gray-transparent">/ 100</span>
           </div>
         </div>
         <div
@@ -80,11 +84,11 @@
               alt="icon"
               class="inline mr-2"
             />
-            <span class="text-green-teal">Verbal</span>
+            <span class="font-semibold text-green-teal">Verbal</span>
           </div>
-          <div>
+          <div class="font-semibold">
             <span>61</span>
-            <span class="text-dark-gray-blue">/ 100</span>
+            <span class="text-gray-transparent">/ 100</span>
           </div>
         </div>
         <div
@@ -96,11 +100,11 @@
               alt="icon"
               class="inline mr-2"
             />
-            <span class="text-cobalt-blue">Visual</span>
+            <span class="font-semibold text-cobalt-blue">Visual</span>
           </div>
-          <div>
+          <div class="font-semibold">
             <span>72</span>
-            <span class="text-dark-gray-blue">/ 100</span>
+            <span class="text-gray-transparent">/ 100</span>
           </div>
         </div>
         <!-- TODO:hover -->

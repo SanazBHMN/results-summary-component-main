@@ -20,6 +20,7 @@ module.exports = {
       "orange-transparent": "hsl(39, 100%, 56%, 0.06)",
       "green-transparent": "hsl(166, 100%, 37%, 0.06)",
       "blue-transparent": "hsl(234, 85%, 45%, 0.06)",
+      "gray-transparent": "hsl(224, 30%, 27%, 0.4)",
 
       "light-slate-blue": "hsl(252, 100%, 67%)",
       "light-royal-blue": "hsl(241, 81%, 54%)",
