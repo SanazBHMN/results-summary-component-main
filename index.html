@@ -16,7 +16,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/dist/output.css" />
-    <script type="text/javascript" src="app.js"></script>
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body class="sm:h-screen sm:flex sm:justify-center sm:items-center">
@@ -44,70 +43,20 @@
         class="p-8 sm:flex-1 sm:rounded-br-3xl sm:rounded-tr-3xl sm:pl-11 sm:-ml-4 sm:shadow-3xl"
       >
         <h4 class="text-dark-gray-blue font-semibold mb-5">Summary</h4>
-        <div
-          class="flex justify-between items-center bg-red-transparent rounded-lg mb-4 p-4"
-        >
-          <div>
-            <img
-              src="/assets/images/icon-reaction.svg"
-              alt="icon"
-              class="inline mr-2"
-            />
-            <span class="font-semibold text-light-red">Reaction</span>
-          </div>
-          <div class="font-semibold">
-            <span>80</span>
-            <span class="text-gray-transparent">/ 100</span>
-          </div>
-        </div>
-        <div
-          class="flex justify-between items-center bg-orange-transparent mb-4 p-4 rounded-lg"
-        >
-          <div>
-            <img
-              src="/assets/images/icon-memory.svg"
-              alt="icon"
-              class="inline mr-2"
-            />
-            <span class="font-semibold text-orangey-yellow">Memory</span>
-          </div>
-          <div class="font-semibold">
-            <span>92</span>
-            <span class="text-gray-transparent">/ 100</span>
-          </div>
-        </div>
-        <div
-          class="flex justify-between items-center bg-green-transparent mb-4 p-4 rounded-lg"
-        >
-          <div>
-            <img
-              src="/assets/images/icon-verbal.svg"
-              alt="icon"
-              class="inline mr-2"
-            />
-            <span class="font-semibold text-green-teal">Verbal</span>
-          </div>
-          <div class="font-semibold">
-            <span>61</span>
-            <span class="text-gray-transparent">/ 100</span>
-          </div>
-        </div>
-        <div
-          class="flex justify-between items-center bg-blue-transparent mb-4 p-4 rounded-lg"
-        >
-          <div>
-            <img
-              src="/assets/images/icon-visual.svg"
-              alt="icon"
-              class="inline mr-2"
-            />
-            <span class="font-semibold text-cobalt-blue">Visual</span>
-          </div>
-          <div class="font-semibold">
-            <span>72</span>
-            <span class="text-gray-transparent">/ 100</span>
-          </div>
-        </div>
+        <ul>
+          <li
+            class="flex justify-between items-center rounded-lg mb-4 p-4"
+          ></li>
+          <li
+            class="flex justify-between items-center rounded-lg mb-4 p-4"
+          ></li>
+          <li
+            class="flex justify-between items-center rounded-lg mb-4 p-4"
+          ></li>
+          <li
+            class="flex justify-between items-center rounded-lg mb-4 p-4"
+          ></li>
+        </ul>
         <button
           class="w-full font-semibold bg-dark-gray-blue text-white py-4 mt-3 rounded-full hover:bg-gradient-to-t hover:from-light-royal-blue hover:to-light-slate-blue"
         >
@@ -122,5 +71,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
