@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter"],
+        sans: ["'Hanken Grotesk'"],
       },
       boxShadow: {
         "3xl": "10px 10px 50px -25px hsl(241, 81%, 54%)",
